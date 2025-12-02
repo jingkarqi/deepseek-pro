@@ -66,7 +66,7 @@ class RunConfig:
     max_retries: int = 8
     metadata: Dict[str, Any] = field(default_factory=dict)
     deepseek_api_key: Optional[str] = None
-    deepseek_base_url: str = "https://api.deepseek.com"
+    deepseek_base_url: str = "https://api.deepseek.com/v3.2_speciale_expires_on_20251215"
     deepseek_system_prompt: str = ""
     deepseek_stream: bool = False
     deepseek_default_model: str = "deepseek-reasoner"
