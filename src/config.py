@@ -130,7 +130,7 @@ def load_config_from_env() -> RunConfig:
         max_rounds=_maybe_int("MAX_ROUNDS", 16),
         generator_concurrency=_maybe_int("GENERATOR_CONCURRENCY", 32),
         verifier_concurrency=_maybe_int("VERIFIER_CONCURRENCY", 128),
-        request_timeout=_maybe_int("REQUEST_TIMEOUT", 120),
+        request_timeout=_maybe_int("REQUEST_TIMEOUT", 4500),
         max_retries=_maybe_int("MAX_RETRIES", 8),
     )
 
