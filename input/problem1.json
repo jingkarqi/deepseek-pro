@@ -1,4 +1,4 @@
 {
   "problem_id": "hypergeo_001",
-  "question": "化简: ${}_2F_1\\!\\left(-\\frac34,\\;\\frac34;\\;\\frac14;\\;\\frac{\\sqrt3}{2}\\right)$"
+  "question": "Simplify: ${}_2F_1\\!\\left(-\\frac34,\\;\\frac34;\\;\\frac14;\\;\\frac{\\sqrt3}{2}\\right)$"
 }
